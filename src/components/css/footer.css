@@ -1,0 +1,53 @@
+/* 页尾 */
+
+/* 页尾导航条的容器 */
+.footer-wrapper{
+    /* 设置宽度全屏 */
+    width: 100%;
+    /* 设置高度和行高 */
+    height: 100px;
+    line-height: 40px;
+    /* 设置背景颜色 */
+    background-color: #333;
+    /* 字体颜色 */
+    color: #b0b0b0;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 20px;
+    /* 上边距 */
+    margin-top: 20px;
+}
+
+.copyright{
+    width: 450px;
+    margin: 0 auto;
+}
+
+
+/* 两则条款的容器 */
+.footer-text{
+    width: 150px;
+    /* background: #bfa; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* 两则条款的a链接 */
+.footer-text a{
+    color: #b0b0b0; 
+    font-size: 12px;
+    display: block;
+}
+
+/* 两则条款的移入效果 */
+.footer-text a:hover{
+    text-decoration: underline;
+}
+
+/* 两则条款文字调整 */
+.footer-text-content{
+    color: #b0b0b0; 
+    font-size: 12px;
+    float: left;
+}

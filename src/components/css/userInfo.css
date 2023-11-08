@@ -1,0 +1,90 @@
+/* 设置的样式表 */
+/* html{
+    height: 100%;
+}
+
+.body{
+    height: 100%;
+} */
+
+/* 取消页首的下边距 */
+.header-wrapper{
+    margin-bottom: 0;
+}
+/* 取消页尾的上边距 */
+.footer-wrapper{
+    margin-top: 0;
+}
+
+/* 个人用户信息存放位置 */
+.user{
+    height: 560px;
+    background: #eee;
+    font-size: 20px;
+    position: relative;
+}
+
+/* 文本输入框宽度 */
+ul li input[type="text"]{
+    width: 100px;
+    
+}
+
+/* 左边的 */
+.info-left{
+    width: 600px;
+    height: 200px;
+    /* background: #eea; */
+    float: left;
+}
+
+/* 昵称、id、生日的文本 */
+li div{
+    float: left;
+    margin-right: 20px;
+    height: 23px;
+    line-height: 23px;
+}
+
+/* 左边的每一组 */
+.info-left li{
+    margin-top: 20px;
+    margin-left: 200px;
+}
+
+/* 昵称上边距50px */
+.info-left li:first-child{
+    margin-top: 50px;
+}
+
+/* 头像容器 */
+.profile-wrapper{
+    width: 400px;
+    height: 210px;
+    /* background: #bfa; */
+    float: right;
+    position: relative;
+}
+
+/* 头像图片大小 */
+img{
+    width: 120px;
+    height: 120px;
+    border: 1px solid #000;
+    margin-top: 50px;
+}
+
+/* 头像文本 */
+.profile-wrapper div{
+    float: left;
+    margin-right: 20px;
+    margin-top: 50px;
+}
+
+/* 头像修改 */
+.profile-wrapper input{
+    position: absolute;
+    bottom: 0;
+    left: 101px;
+    transform: translateX(50%);
+}

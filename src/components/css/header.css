@@ -1,0 +1,114 @@
+/* 页首 */
+
+/* 顶部导航条的容器 */
+.header-wrapper{
+    /* 设置宽度全屏 */
+    width: 100%;
+    /* 设置高度和行高 */
+    height: 45px;
+    line-height: 45px;
+    /* 设置背景颜色 */
+    background-color: #333;
+    /* 字体颜色 */
+    color: #b0b0b0;
+    /* 字体大小 */
+    font-size: 14px;
+    /* 下边距 */
+    margin-bottom: 20px;
+}
+
+/* .logoImg{ */
+    /* height: 30px;
+    display: block; */
+    /* background: white; */
+    /* margin: auto 0; */
+    
+/* } */
+
+/* 页首左侧ul */
+.header-left{
+    /* 页首左侧整体向左浮动 */
+    float: left;
+    /* width: 300px; */
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* justify-content: space-evenly; */
+}
+
+.header-left::before{
+    content: " ";
+    display: block;
+    height: 45px;
+    width: 45px;
+    background: url("../img/time.png") no-repeat;
+    background-position: 50% 50%;
+    /* background-origin: content-box; */
+    background-size: 95%;
+    float: left;
+}
+
+/* 页首左侧ul的li */
+.header-left li{
+    /* li再向左浮动 */
+    float: left;
+    /* 每个li是125px */
+    width: 125px;
+    /* 字体居中 */
+    text-align: center;
+}
+
+/* 页首左侧ul li中的a标签 */
+.header-left li a{
+    /* 字体颜色 */
+    color: #b0b0b0;
+    /* 撑起位置 */
+    display: block;
+    /* 让a和li一样大 */
+    width: 100%;
+    /* flex-grow: 1; */
+}
+
+/* 设置超链接移入的效果 */
+.header-left li a:hover{
+    /* 移入字体颜色变黑 */
+    color: #333;
+    /* 移动背景颜色变白 */
+    background-color: #E8E7E3;
+}
+
+
+
+/* 页首右侧ul */
+.header-right{
+    /* 右侧ul整体往右侧偏移 */
+    float: right;
+}
+
+/* 页首右侧ul的li */
+.header-right li{
+    /* 第一类往右侧偏 */
+    float: right;
+    /* 每个li是125px */
+    width: 60px;
+    /* 字体居中 */
+    text-align: center;
+}
+
+/* 页首右侧ul li中的a标签 */
+.header-right li a{
+    /* 字体颜色 */
+    color: #b0b0b0;
+    /* 撑起位置 */
+    display: block;
+    /* 让a和li一样大 */
+    width: 100%;
+    /* flex-grow: 1; */
+}
+
+/* 设置超链接移入的效果 */
+.header-right li a:hover{
+    /* 移入字体颜色变黑 */
+    color: #333;
+    /* 移动背景颜色变白 */
+    background-color: #E8E7E3;
+}

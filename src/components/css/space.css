@@ -1,0 +1,56 @@
+/* 个人空间的样式表 */
+
+/* 取消页首的下边距 */
+.header-wrapper{
+    margin-bottom: 0;
+}
+/* 取消页尾的上边距 */
+.footer-wrapper{
+    margin-top: 0;
+}
+
+.main{
+    background-color: #fff;
+}
+
+/* 左侧信息栏 */
+.left-info{
+    width: 320px;
+    height: 1200px;
+    background-color: silver;
+    text-align: center;
+    font-weight: bold;
+    float: left;
+}
+
+/* 头像 */
+.proflie{
+    width: 150px;
+    height: 150px;
+    margin: 70px auto 0 auto;
+    border-radius: 50%;
+    /* background-color: #bfa; */
+    /* background-image: url(../img/profile.jpg);
+    background-size: contain; */
+    background: url(../img/profile.jpg) center/contain;
+}
+
+.user-name{
+    margin-top: 25px;
+}
+
+.id{
+    margin-top: 10px;
+}
+
+.right-info{
+    float: left;
+    width: 900px;
+    height: 500px;
+    background: #bfa;
+}
+
+.clock{
+    /* margin-top: 25px; */
+    margin: 45px auto 45px auto;
+}

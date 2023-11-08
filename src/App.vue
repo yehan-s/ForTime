@@ -1,28 +1,58 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Header></Header>
+    <router-view></router-view>
+    <Footer></Footer>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+//
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Header,
+    Footer
   }
 }
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+<style lang="scss">
+@use 'src/style/reset.scss';
+@use 'src/style/base.css';
+// element-ui样式
+// @use 'element-ui/lib/theme-chalk/index.css';
+
+// 基本高度不影响页首
+html,
+body,
+form {
+  height: 100%;
+  // 滚动条不挤压布局
+  overflow-y: auto;
+  overflow-x: hidden;
+
+  #app {
+  position: relative;
+  min-height: 100%;
+  padding-bottom: 120px;
+  box-sizing: border-box;
+  // 滚动条不挤压布局
+  margin-right: calc(100% - 100vw);
 }
+}
+
+
+// 利用vw和calc实现滚动条不挤压布局
+// html {
+//   overflow-y: auto;
+//   overflow-x: hidden;
+// }
+
+// #app {
+//   margin-right: calc(100% - 100vw);
+// }
 </style>

@@ -1,0 +1,27 @@
+/* 关于我们样式表 */
+
+.header-wrapper{
+    margin-bottom: 85px;
+}
+
+h1{
+    /* margin-top: 70px; */
+    font-size: 40px;
+    color: #666;
+    margin-bottom: 30px;
+    text-shadow: 25;
+}
+
+.main{
+    color: #666;
+    margin-top: 20px;
+    letter-spacing: .05em;
+    line-height: 25px;
+    text-indent: 2em;
+}
+
+.footer-wrapper{
+    position: absolute;
+    /* bottom: 0; */
+    bottom: 0;
+}

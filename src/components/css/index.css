@@ -1,0 +1,28 @@
+*,ul,a{
+    margin:0;
+    padding:0;
+    border:0;
+    list-style:none;
+    text-decoration:none;
+}
+#banner_wrap{
+    width:1220px;
+	/* 1000 */
+    height:400px;
+    margin:0 auto;
+    border:1px solid #c0a599;
+    margin-top:30px;
+    position:relative;
+    overflow:hidden;
+}
+#banner{
+    position:absolute;
+    height:400px;
+
+}
+.oLi{
+    width:1000px;
+    height:400px;
+    float:left;
+}
+
