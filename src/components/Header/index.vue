@@ -14,7 +14,7 @@
                     <router-link to="/about">关于我们</router-link>
                 </li>
                 <li>
-                    <a href="javascript:;">测试维护</a>
+                    <router-link to="/demo">测试维护</router-link>
                     <!-- <router-link to=""></router-link> -->
                 </li>
                 <li>
@@ -31,7 +31,7 @@
                     </router-link>
                 </li>
                 <li>
-                    <router-link to="/">
+                    <router-link to="/setting">
                         <i class="iconfont icon-shezhi2"></i>
                     </router-link>
                 </li>
