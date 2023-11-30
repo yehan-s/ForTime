@@ -14,7 +14,7 @@
                     <router-link to="/about">关于我们</router-link>
                 </li>
                 <li>
-                    <a href="javascript:;">测试维护</a>
+                    <router-link to="/demo">测试维护</router-link>
                     <!-- <router-link to=""></router-link> -->
                 </li>
                 <li>
@@ -31,11 +31,11 @@
                     </router-link>
                 </li>
                 <li>
-                    <router-link to="/">
+                    <router-link to="/signIn">
                         <i class="iconfont icon-shezhi2"></i>
                     </router-link>
                 </li>
-            </ul>
+            </ul>  
 
         </div>
     </div>
@@ -51,7 +51,7 @@ export default {
 @use 'src/style/reset.scss';
 @use 'src/style/base.css';
 // iconfont
-@import url('//at.alicdn.com/t/c/font_4318588_xbsy9wjzbac.css');
+@import url('//at.alicdn.com/t/c/font_4318588_ajcofnate8l.css');
 /* 页首 */
 
 /* 顶部导航条的容器 */

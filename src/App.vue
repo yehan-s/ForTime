@@ -1,13 +1,13 @@
 <template>
   <div id="app">
-    <Header></Header>
+    <Header v-if="!$route.meta.showHeader"></Header>
     <router-view></router-view>
-    <Footer></Footer>
+    <Footer v-if="!$route.meta.showFooter"></Footer>
   </div>
 </template>
 
 <script>
-//
+
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
