@@ -31,7 +31,7 @@
                     </router-link>
                 </li>
                 <li>
-                    <router-link to="/signIn">
+                    <router-link to="/">
                         <i class="iconfont icon-shezhi2"></i>
                     </router-link>
                 </li>
